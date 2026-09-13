@@ -1,0 +1,10 @@
+# 카탈로그 임베딩 캐시 - 용량이 커서(모델당 약 130MB) git에는 안 올리고 각자 환경에서 최초 1회 생성
+eval/embed_cache/
+
+# GLAMI-1M 카탈로그 이미지 (용량 문제로 별도 다운로드, 메타데이터 CSV만 git에 포함)
+data/glami1m_dresses/images/*
+!data/glami1m_dresses/images/.gitkeep
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
